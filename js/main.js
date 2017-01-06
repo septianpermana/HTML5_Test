@@ -30,20 +30,8 @@ function init() {
 	tl.from("#txt02b", time, {autoAlpha:0},"-=4");
     tl.from("#txtbg2", time, {autoAlpha:0, width:0},"-=3");
     
-    
-    
-    
-    
-//    tl.to("#txt02", time, {autoAlpha:0}, "-="+between);
-//	  tl.to("#txt02b", time, {autoAlpha:0}, "-="+between);
-//    tl.to("#txtbg2", time, {autoAlpha:0}, "-=0.5");
-
 //- Frame 2 ----------------------------------------------------------->
 
-//    tl.to("#txtbg3", "-9", {scale:0.5, opacity:0, x: "+180", ease:Back.easeOut, delay:0.4});
-    
-    
-    
     tl.from("#txtbg3", time, {scale:0.5, autoAlpha:0});    
     tl.from("#txt03", time, {autoAlpha:0}, "-=0");
 	tl.from("#yes", time, {width:"0px", delay:time, autoAlpha:0},"-=0");
@@ -58,13 +46,11 @@ function init() {
 	tl.from("#txt04", time, {autoAlpha:0});
     tl.from("#logo", time, {y:"+36", autoAlpha:0});
     tl.from("#cta", time, {x:"-210", delay:0.25, autoAlpha:0});
-    
 
 	tl.to("#txt04", 0, {delay:wait, autoAlpha:0});
     tl.to("#logo", 0, {autoAlpha:0});
     tl.to("#cta", 0, {autoAlpha:0});
     
-	
 }
 
 /**
