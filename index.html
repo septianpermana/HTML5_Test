@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>HTML5 Banner</title>
+</head>
+
+<body onLoad="init();">
+	
+    <!-- DCM (DoubleClick Campaign Manager) & DFA (DoubleClick For Advertisers) Generic Click Through -->
+    <!-- <script> var clickTag = "https://www.google.com/"; </script> -->
+    <!-- <a href="javascript:window.open(window.clickTag)"> -->
+
+	<div id="banner">
+
+        <!-- Frame 1 -->
+        <div id="frame-1">
+            <img src="Assets/bg.jpg" id="bg" />
+            <div class="asset" id="txtbg1"></div>
+            <img src="Assets/txt01.png" class="asset" id="txt01" />           
+            <img src="Assets/txt01b.png" class="asset" id="txt01b" />
+            <img src="Assets/txt02b.png" class="asset" id="txt02b" />
+            <div class="asset" id="txtbg2"></div>
+            <img src="Assets/txt02.png" class="asset" id="txt02" />
+            
+        </div>
+
+        <!-- Frame 2 -->
+        <div id="frame-2">
+            <div class="asset" id="txtbg3"></div>
+            <img src="Assets/yes.png" class="asset" id="yes" />
+            <img src="Assets/txt03.png" class="asset" id="txt03" />
+            
+        </div>
+
+        <!-- Frame 3 -->
+        <div id="frame-3">
+            <img src="Assets/txt04.png" class="asset" id="txt04" />
+            <img src="Assets/cta.png" class="asset" id="cta" />
+            <img src="Assets/logos.png" class="asset" id="logo" />
+        </div>
+
+    </div>
+
+    <!-- GreenSock for GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
